@@ -19,7 +19,9 @@ A minimalist, glass-themed note-taking application built with Node.js, Express, 
 
 bash
 git clone https://github.com/viranora/basic-note-app.git
+
 cd basic-note-app
+
 npm install
 
 ## React frontend setup:
