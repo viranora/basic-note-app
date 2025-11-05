@@ -27,35 +27,51 @@ npm install
 ## React frontend setup:
 
 cd frontend
+
 npm install
+
 npm start
 
 ## Express backend setup:
 
 cd ..
+
 node server.js
 
 ## CLI Usage
 
 node app.js ekle "Title" "Content" [Tag]
+
 node app.js listele [Tag]
+
 node app.js sil <id>
+
 node app.js sabitle <id>
+
 node app.js ara <keyword>
 
 ## Web Interface
+
 Add and view notes
+
 Edit and delete notes
+
 Tag and display creation date
+
 Responsive, glass-themed UI
 
 ## Project Structure
 
 basic-note-app/
+
 ├── app.js           # CLI command handler
+
 ├── notes.js         # Note operations module
+
 ├── notes.json       # Data store
+
 ├── server.js        # Express API
+
 └── frontend/        # React interface
 
 by nora...
